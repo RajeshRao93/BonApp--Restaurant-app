@@ -30,4 +30,3 @@ Setting up PostgreSQL container
 •	As a result we will have database hosted at “192.168.99.100:5432” on the docker.
 •	You can access the database by downloading Postgres SQL to your computer.
 •	Then download pg admin 3 to access the database server.
-•	Screenshot of pg admin 3 is shown below
