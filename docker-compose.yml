@@ -1,0 +1,36 @@
+version: '3'
+services: 
+  ownerportal:
+    build: './ownerportal/MIC-Project'
+    ports:
+      - "3000:3000"
+
+  restaurant:
+    build: './restaurant'
+    depends_on:
+      - db
+    ports:
+      - "6001:6000"
+    
+  users:
+    build: './users'
+    depends_on:
+      - db
+    ports:
+      - "6002:6000"
+
+  nginx:
+    build: './nginx'
+    ports:
+      - "8008:80"
+
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB= userdb
+    ports:
+      - "5000:5432"
+
+  
