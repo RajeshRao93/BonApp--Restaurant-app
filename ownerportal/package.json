@@ -11,6 +11,7 @@
     "jquery": "^3.4.1",
     "jspdf": "^1.5.3",
     "mdbreact": "^4.15.0",
+    "npm-git-install": "^0.3.0",
     "react": "^16.8.6",
     "react-awesome-modal": "^2.0.5",
     "react-bootstrap-modal": "^4.2.0",
@@ -25,11 +26,13 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
+    "react-select": "^3.0.4",
     "react-tabs": "^3.0.0",
     "simple-react-validator": "^1.1.0",
     "validator": "^11.0.0"
   },
   "scripts": {
+    "install": "npm-git install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,5 +52,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hegdemohan/ARP-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hegdemohan/ARP-Project/issues"
+  },
+  "homepage": "https://github.com/hegdemohan/ARP-Project#readme",
+  "devDependencies": {}
 }
