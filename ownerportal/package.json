@@ -9,7 +9,7 @@
     "create-react-class": "^15.6.3",
     "http-post": "^0.1.1",
     "jquery": "^3.4.1",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "mdbreact": "^4.15.0",
     "npm-git-install": "^0.3.0",
     "react": "^16.8.6",
