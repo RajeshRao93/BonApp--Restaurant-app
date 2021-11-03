@@ -29,7 +29,7 @@
     "react-select": "^3.0.4",
     "react-tabs": "^3.0.0",
     "simple-react-validator": "^1.1.0",
-    "validator": "^11.0.0"
+    "validator": "^13.7.0"
   },
   "scripts": {
     "install": "npm-git install",
