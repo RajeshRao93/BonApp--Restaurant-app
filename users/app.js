@@ -1,7 +1,7 @@
 const express = require('express') ;
 const bodyParser = require('body-parser');
 const app = express();
-const users = require('./src/users');
+const users = require('./repo/users');
 const getpincode = users.GetPincode;
 const signup = users.Signup;
 const port = process.env.PORT || 6000
