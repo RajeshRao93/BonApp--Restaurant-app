@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-const restaurant = require('./src/restaurant');
+const restaurant = require('./repo/restaurant');
 const port = process.env.PORT || 6000
 app.use(express.json());
 app.use(bodyParser.json());
